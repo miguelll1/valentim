@@ -7,7 +7,7 @@ import ValentinesProposal from "@/components/ValentinesProposal";
 import TextFooter from "@/components/TextFooter";
 import OrientationGuard from "@/components/OrientationGuard";
 
-const ANIM_DURATION = 2;
+const ANIM_DURATION = 1;
 
 export default function Home() {
   const [showValentinesProposal, setShowValentinesProposal] = useState(false);
